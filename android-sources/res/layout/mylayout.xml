@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       android:orientation="horizontal"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       >
+
+  <Button android:id="@+id/mybutton"
+
+       android:layout_width="wrap_content"
+       android:layout_height="fill_parent"
+       android:layout_below="@+id/notify_title"
+       android:text="Pray +1 "
+       android:background="@drawable/button_bgnd_left"
+       android:layout_margin="3dp"
+       />
+
+  <Button android:id="@+id/mybutton2"
+
+       android:layout_width="wrap_content"
+       android:layout_height="fill_parent"
+       android:layout_below="@+id/notify_title"
+       android:text="Pray +5 "
+       android:background="@drawable/button_bgnd_left"
+       android:layout_margin="3dp"
+       />
+
+  <Button android:id="@+id/mybutton3"
+       android:background="@drawable/button_bgnd_left"
+       android:layout_width="wrap_content"
+       android:layout_height="fill_parent"
+       android:layout_below="@+id/notify_title"
+       android:text="Pray +20"
+       android:layout_margin="3dp"
+
+       />
+
+  <TextView android:id="@+id/counttext"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="20dp"
+       android:text="Count"
+       android:layout_margin="3dp"
+       />
+
+
+</LinearLayout>
